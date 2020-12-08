@@ -1,6 +1,25 @@
 # 333.java
-java第二次实验＃阅读程序
-＃#实验目的：Java中的类，学习类之间的联系，掌握构造方法，实现定义属性的修饰符近似＃#实验过程再同学的帮助下完成，认真学习如何对象属性＃#核心方法主类#公共类测试
+掌握类中构造方法<br>;
+学会增加类中对象属性的多样性<br>;
+学会属性的修饰符多样性<br>;
+Java中的类，学习类之间的联系，掌握构造方法，实现定义属性的修饰符近似实验过程再同学的帮助下完成，认真学习如何对象属性核心方法主类公共类测试<br>;
+首先添加计算机的对象增加计算机这个对象的属性<br>;
+class是关键字用来定义类，并且是类的使命部分<br>;
+例如：public class CPI <br>;
+其次添加类中对象的属性：<br>;
+例如：
+private int speed;<br>;
+	private String name;<br>;
+	   public CPI(){<br>;
+	   }<br>;
+	   
+	   int getSpeed() {
+	      return speed;
+
+	   }
+	   String getName(){
+		return name;  
+	   }
 1-*{公共静态void main（字符串[] args）
 1_CPU cpu = new CPU（）;
 2-HD =新的HarjDisk（）;
